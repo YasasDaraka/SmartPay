@@ -10,14 +10,14 @@ export default function Dashboard() {
     <View className='flex w-full h-full' >
       <View className='h-1/3 w-full bg-[#222222]' >
 
-        <View className='flex flex-row items-center h-1/4 w-full' >
+        <View className='flex flex-row items-center h-1/4 w-full mt-2' >
 
           <View className='flex flex-row w-1/2 h-full'>
             <View className='w-1/3 h-full flex justify-center items-center'>
-              <View className=' flex justify-between w-3/6 h-3/6'>
-                <View className='w-2/3 h-1/6 bg-[#F1B041] rounded-full'></View>
-                <View className='w-full h-1/6 bg-white rounded-full'></View>
-                <View className='w-full h-1/6 bg-white rounded-full'></View>
+              <View className=' flex justify-between w-3/6 h-7'>
+                <View className='w-2/3 h-1 bg-[#F1B041] rounded-full'></View>
+                <View className='w-full h-1 bg-white rounded-full'></View>
+                <View className='w-full h-1 bg-white rounded-full'></View>
               </View>
             </View>
             <View className='flex flex-row items-center bg-[#2F2F2F] w-2/3 h-full rounded-full'>
@@ -43,22 +43,22 @@ export default function Dashboard() {
         <View className='flex flex-row items-center justify-around h-3/6 w-full bg-[#222222]' >
           <View className='w-[90vw] h-full flex flex-row items-center justify-around'>
             <View className='flex justify-center items-center'>
-              <View className={"bg-[#F1B041] w-[17vw] h-[17vw] rounded-full relative bottom-3"}></View>
+              <View className={"bg-[#F1B041] w-[16vw] h-[16vw] rounded-full relative bottom-3"}></View>
               <Text className='relative bottom-2 text-white'>Found Tranfer</Text>
             </View>
 
             <View className='flex justify-center items-center'>
-              <View className={"bg-[#F1B041] w-[17vw] h-[17vw] rounded-full relative bottom-3"}></View>
+              <View className={"bg-[#F1B041] w-[16vw] h-[16vw] rounded-full relative bottom-3"}></View>
               <Text className='relative bottom-2 text-white'>QR Payment</Text>
             </View>
 
             <View className='flex justify-center items-center'>
-              <View className={"bg-[#F1B041] w-[17vw] h-[17vw] rounded-full relative bottom-3"}></View>
+              <View className={"bg-[#F1B041] w-[16vw] h-[16vw] rounded-full relative bottom-3"}></View>
               <Text className='relative bottom-2 text-white'>Paay Bils</Text>
             </View>
 
             <View className='flex justify-center items-center'>
-              <View className={"bg-[#F1B041] w-[17vw] h-[17vw] rounded-full relative bottom-3"}></View>
+              <View className={"bg-[#F1B041] w-[16vw] h-[16vw] rounded-full relative bottom-3"}></View>
               <Text className='relative bottom-2 text-white'>My Shop</Text>
             </View>
 
