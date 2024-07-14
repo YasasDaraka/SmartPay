@@ -1,9 +1,10 @@
 import React from 'react'
 import { Image, View } from 'react-native'
-import { Text } from 'react-native-paper'
+import { Headline, Text } from 'react-native-paper'
 import { ScrollView } from 'react-native'
 const bell = require('../../../assets/images/bell.png');
 const smartpaylogo = require('../../../assets/images/smartpay.png');
+const promotion = require('../../../assets/images/promotion.png');
 export default function Dashboard() {
   return (
     <View className='flex w-full h-full' >
@@ -39,7 +40,7 @@ export default function Dashboard() {
         <Image source={smartpaylogo} className='h-20 w-44 relative bottom-1'></Image>
         </View>
 
-        <View className='flex flex-row items-center justify-around h-3/6 w-full' >
+        <View className='flex flex-row items-center justify-around h-3/6 w-full bg-[#222222]' >
           <View className='w-[90vw] h-full flex flex-row items-center justify-around'>
           <View className='flex justify-center items-center'>
             <View className={"bg-[#F1B041] w-[17vw] h-[17vw] rounded-full relative bottom-3"}></View>
@@ -68,8 +69,17 @@ export default function Dashboard() {
       </View>
 
 
-      <View className='flex w-full h-2/3 bg-[#9b5656] '>
+      <View className='flex w-full h-2/3 bg-[#9b5656] top-4'>
         <ScrollView className='w-full'>
+
+          <View className='flex justify-center items-center h-[67vw] w-full bg-white '>
+
+          <View className='h-[12vw] w-full flex-row items-center justify-between px-4'>
+          <Headline className='text-lg font-bold pl-1'>Promotions</Headline>
+          <Text className='text-[#e7a93e] font-bold'>View All</Text>
+          </View>
+          <Image source={promotion} className='h-[55vw] w-[91vw]'></Image>
+          </View>
           <Text className='mt-5 w-full text-center'>Yasas</Text>
           <Text className='mt-5 w-full text-center'>Yasas</Text>
           <Text className='mt-5 w-full text-center'>Yasas</Text>
