@@ -25,16 +25,94 @@ export default function BillPay() {
                     </View>
                 </LinearGradient>
                 <View className='flex items-center h-full w-full bg-white'>
-                    <View className='flex-row bg-white items-center justify-start px-4 mt-3 h-[22vw] w-[94vw] rounded-xl border-[0.8px] border-gray-500'>
+                    <View className='flex-row bg-white items-center justify-start px-4 mt-3 h-[19.5vw] w-[94vw] rounded-xl border-[0.8px] border-gray-500'>
 
                         <View className='flex items-center justify-center w-16 h-2/3'>
-                        <Image source={mobile} className='w-14 h-14'></Image>
+                        <Image source={mobile} className='w-12 h-12'></Image>
                         </View>
 
                         <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
                             <Headline className='text-xl font-bold'>Telecommunication</Headline>
                         </View>
                     </View>
+
+                    <View className='flex-row bg-white items-center justify-start px-4 mt-3 h-[19.5vw] w-[94vw] rounded-xl border-[0.8px] border-gray-500'>
+
+                        <View className='flex items-center justify-center w-16 h-2/3'>
+                        <Image source={mobile} className='w-12 h-12'></Image>
+                        </View>
+
+                        <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
+                            <Headline className='text-xl font-bold'>Telecommunication</Headline>
+                        </View>
+                    </View>
+
+                    <View className='flex-row bg-white items-center justify-start px-4 mt-3 h-[19.5vw] w-[94vw] rounded-xl border-[0.8px] border-gray-500'>
+
+                        <View className='flex items-center justify-center w-16 h-2/3'>
+                        <Image source={mobile} className='w-12 h-12'></Image>
+                        </View>
+
+                        <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
+                            <Headline className='text-xl font-bold'>Telecommunication</Headline>
+                        </View>
+                    </View>
+
+                    <View className='flex-row bg-white items-center justify-start px-4 mt-3 h-[19.5vw] w-[94vw] rounded-xl border-[0.8px] border-gray-500'>
+
+                        <View className='flex items-center justify-center w-16 h-2/3'>
+                        <Image source={mobile} className='w-12 h-12'></Image>
+                        </View>
+
+                        <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
+                            <Headline className='text-xl font-bold'>Telecommunication</Headline>
+                        </View>
+                    </View>
+
+                    <View className='flex-row bg-white items-center justify-start px-4 mt-3 h-[19.5vw] w-[94vw] rounded-xl border-[0.8px] border-gray-500'>
+
+                        <View className='flex items-center justify-center w-16 h-2/3'>
+                        <Image source={mobile} className='w-12 h-12'></Image>
+                        </View>
+
+                        <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
+                            <Headline className='text-xl font-bold'>Telecommunication</Headline>
+                        </View>
+                    </View>
+
+                    <View className='flex-row bg-white items-center justify-start px-4 mt-3 h-[19.5vw] w-[94vw] rounded-xl border-[0.8px] border-gray-500'>
+
+                        <View className='flex items-center justify-center w-16 h-2/3'>
+                        <Image source={mobile} className='w-12 h-12'></Image>
+                        </View>
+
+                        <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
+                            <Headline className='text-xl font-bold'>Telecommunication</Headline>
+                        </View>
+                    </View>
+
+                    <View className='flex-row bg-white items-center justify-start px-4 mt-3 h-[19.5vw] w-[94vw] rounded-xl border-[0.8px] border-gray-500'>
+
+                        <View className='flex items-center justify-center w-16 h-2/3'>
+                        <Image source={mobile} className='w-12 h-12'></Image>
+                        </View>
+
+                        <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
+                            <Headline className='text-xl font-bold'>Telecommunication</Headline>
+                        </View>
+                    </View>
+
+                    <View className='flex-row bg-white items-center justify-start px-4 mt-3 h-[19.5vw] w-[94vw] rounded-xl border-[0.8px] border-gray-500'>
+
+                        <View className='flex items-center justify-center w-16 h-2/3'>
+                        <Image source={mobile} className='w-12 h-12'></Image>
+                        </View>
+
+                        <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
+                            <Headline className='text-xl font-bold'>Telecommunication</Headline>
+                        </View>
+                    </View>
+
 
                 </View>
             </View>
