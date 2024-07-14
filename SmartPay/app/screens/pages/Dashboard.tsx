@@ -81,7 +81,7 @@ export default function Dashboard() {
           <Image source={promotion} className='h-[55vw] w-[91vw]'></Image>
           </View>
 
-          <View className='flex items-center h-[38vw] w-full bg-white '>
+          <View className='flex items-center h-[35vw] w-full bg-white '>
 
           <View className='h-[12vw] w-full flex-row items-center justify-between px-4'>
           <Headline className='text-lg font-bold pl-1'>Accounts</Headline>
@@ -96,13 +96,37 @@ export default function Dashboard() {
             <Headline className='text-lg font-bold pl-1 m-0'>XXXX</Headline>
             </View>
 
-            <View className='flex items-end w-1/2 h-2/3 '>
+            <View className='flex items-end justify-center w-1/2 h-2/3 '>
             <Text className='text-lg font-bold pl-1 m-0'>Balance</Text>
             <View className='flex justify-center items-center flex-row '>
             <Text className='text-sm font-bold pl-1 m-0'>LKR</Text>
             <Text className='text-lg font-bold pl-1 m-0'>100,000.00</Text>
             </View>
             
+            </View>
+          </View>
+
+          </View>
+
+          <View className='flex items-center h-[38vw] w-full bg-white '>
+
+          <View className='h-[12vw] w-full flex-row items-center justify-between px-4'>
+          <Headline className='text-lg font-bold pl-1'>Recent Transactions</Headline>
+          <Text className='text-[#e7a93e] font-bold'>View All</Text>
+          </View>
+          <View className='flex-row items-center justify-between px-4 h-[23vw] w-[91vw] rounded-xl border-[0.6px] bg-[#EDEDED]'>
+            
+            <View className='flex justify-center w-1/2 h-2/3'>
+            <Headline className='text-lg font-bold pl-1 m-0 '>Bill Payment</Headline>
+            <Text className='text-lg pl-1 m-0'>Hutch</Text>
+            </View>
+
+            <View className='flex items-end justify-center w-1/2 h-2/3 '>
+            <View className='flex justify-center items-center flex-row '>
+            <Text className='text-sm font-bold pl-1 m-0'>LKR</Text>
+            <Text className='text-lg font-bold pl-1 m-0'>100.00</Text>
+            </View>
+            <Text className='text-base pl-1 m-0'>04-jul-24 11.06AM</Text>
             </View>
           </View>
 
