@@ -15,9 +15,9 @@ export default function Dashboard() {
           <View className='flex flex-row w-1/2 h-full'>
             <View className='w-1/3 h-full flex justify-center items-center'>
               <View className=' flex justify-between w-3/6 h-3/6'>
-                  <View className='w-2/3 h-1/6 bg-[#F1B041] rounded-full'></View>
-                  <View className='w-full h-1/6 bg-white rounded-full'></View>
-                  <View className='w-full h-1/6 bg-white rounded-full'></View>
+                <View className='w-2/3 h-1/6 bg-[#F1B041] rounded-full'></View>
+                <View className='w-full h-1/6 bg-white rounded-full'></View>
+                <View className='w-full h-1/6 bg-white rounded-full'></View>
               </View>
             </View>
             <View className='flex flex-row items-center bg-[#2F2F2F] w-2/3 h-full rounded-full'>
@@ -37,30 +37,30 @@ export default function Dashboard() {
         </View>
 
         <View className='flex justify-center items-center h-2/6 w-full' >
-        <Image source={smartpaylogo} className='h-20 w-44 relative bottom-1'></Image>
+          <Image source={smartpaylogo} className='h-20 w-44 relative bottom-1'></Image>
         </View>
 
         <View className='flex flex-row items-center justify-around h-3/6 w-full bg-[#222222]' >
           <View className='w-[90vw] h-full flex flex-row items-center justify-around'>
-          <View className='flex justify-center items-center'>
-            <View className={"bg-[#F1B041] w-[17vw] h-[17vw] rounded-full relative bottom-3"}></View>
-            <Text className='relative bottom-2 text-white'>Found Tranfer</Text>
-          </View>
+            <View className='flex justify-center items-center'>
+              <View className={"bg-[#F1B041] w-[17vw] h-[17vw] rounded-full relative bottom-3"}></View>
+              <Text className='relative bottom-2 text-white'>Found Tranfer</Text>
+            </View>
 
-          <View className='flex justify-center items-center'>
-            <View className={"bg-[#F1B041] w-[17vw] h-[17vw] rounded-full relative bottom-3"}></View>
-            <Text className='relative bottom-2 text-white'>QR Payment</Text>
-          </View>
+            <View className='flex justify-center items-center'>
+              <View className={"bg-[#F1B041] w-[17vw] h-[17vw] rounded-full relative bottom-3"}></View>
+              <Text className='relative bottom-2 text-white'>QR Payment</Text>
+            </View>
 
-          <View className='flex justify-center items-center'>
-            <View className={"bg-[#F1B041] w-[17vw] h-[17vw] rounded-full relative bottom-3"}></View>
-            <Text className='relative bottom-2 text-white'>Paay Bils</Text>
-          </View>
+            <View className='flex justify-center items-center'>
+              <View className={"bg-[#F1B041] w-[17vw] h-[17vw] rounded-full relative bottom-3"}></View>
+              <Text className='relative bottom-2 text-white'>Paay Bils</Text>
+            </View>
 
-          <View className='flex justify-center items-center'>
-            <View className={"bg-[#F1B041] w-[17vw] h-[17vw] rounded-full relative bottom-3"}></View>
-            <Text className='relative bottom-2 text-white'>My Shop</Text>
-          </View>
+            <View className='flex justify-center items-center'>
+              <View className={"bg-[#F1B041] w-[17vw] h-[17vw] rounded-full relative bottom-3"}></View>
+              <Text className='relative bottom-2 text-white'>My Shop</Text>
+            </View>
 
           </View>
 
@@ -69,93 +69,100 @@ export default function Dashboard() {
       </View>
 
 
-      <View className='flex w-full h-2/3 bg-[#9b5656] top-4'>
+      <View className='flex w-full h-2/3 top-4'>
         <ScrollView className='w-full'>
 
           <View className='flex justify-center items-center h-[67vw] w-full bg-white '>
 
-          <View className='h-[12vw] w-full flex-row items-center justify-between px-4'>
-          <Headline className='text-lg font-bold pl-1'>Promotions</Headline>
-          <Text className='text-[#e7a93e] font-bold'>View All</Text>
-          </View>
-          <Image source={promotion} className='h-[55vw] w-[91vw]'></Image>
+            <View className='h-[12vw] w-full flex-row items-center justify-between px-4'>
+              <Headline className='text-lg font-bold pl-1'>Promotions</Headline>
+              <Text className='text-[#e7a93e] font-bold'>View All</Text>
+            </View>
+            <Image source={promotion} className='h-[55vw] w-[91vw]'></Image>
           </View>
 
           <View className='flex items-center h-[35vw] w-full bg-white '>
 
-          <View className='h-[12vw] w-full flex-row items-center justify-between px-4'>
-          <Headline className='text-lg font-bold pl-1'>Accounts</Headline>
-          <Text className='text-[#e7a93e] font-bold'>Manage</Text>
-          </View>
-          <View className='flex-row items-center justify-between px-4 h-[23vw] w-[91vw] rounded-xl 
+            <View className='h-[12vw] w-full flex-row items-center justify-between px-4'>
+              <Headline className='text-lg font-bold pl-1'>Accounts</Headline>
+              <Text className='text-[#e7a93e] font-bold'>Manage</Text>
+            </View>
+            <View className='flex-row items-center justify-between px-4 h-[23vw] w-[91vw] rounded-xl 
           border-l-[2vw] border-l-[#F1B041] border-r-[0.8px] border-t-[0.8px] border-b-[0.8px]
           border-t-gray-500 border-b-gray-500 border-r-gray-500'>
-            
-            <View className='flex justify-center w-1/2 h-2/3'>
-            <Headline className='text-lg font-bold pl-1 m-0'>MY BOC</Headline>
-            <Headline className='text-lg font-bold pl-1 m-0'>XXXX</Headline>
-            </View>
 
-            <View className='flex items-end justify-center w-1/2 h-2/3 '>
-            <Text className='text-lg font-bold pl-1 m-0'>Balance</Text>
-            <View className='flex justify-center items-center flex-row '>
-            <Text className='text-sm font-bold pl-1 m-0'>LKR</Text>
-            <Text className='text-lg font-bold pl-1 m-0'>100,000.00</Text>
-            </View>
-            
+              <View className='flex justify-center w-1/2 h-2/3'>
+                <Headline className='text-lg font-bold pl-1 m-0'>MY BOC</Headline>
+                <Headline className='text-lg font-bold pl-1 m-0'>XXXX</Headline>
+              </View>
+
+              <View className='flex items-end justify-center w-1/2 h-2/3 '>
+                <Text className='text-lg font-bold pl-1 m-0'>Balance</Text>
+                <View className='flex justify-center items-center flex-row '>
+                  <Text className='text-sm font-bold pl-1 m-0'>LKR</Text>
+                  <Text className='text-lg font-bold pl-1 m-0'>100,000.00</Text>
+                </View>
+
+              </View>
             </View>
           </View>
 
-          </View>
+          <View className='flex items-center h-auto w-full bg-white mb-3'>
 
-          <View className='flex items-center h-[38vw] w-full bg-white '>
+            <View className='h-[12vw] w-full flex-row items-center justify-between px-4'>
+              <Headline className='text-lg font-bold pl-1'>Recent Transactions</Headline>
+              <Text className='text-[#e7a93e] font-bold'>View All</Text>
+            </View>
+            <View className='flex-row items-center justify-between mb-3 px-4 h-[23vw] w-[91vw] rounded-xl border-[0.6px] bg-[#EDEDED]'>
 
-          <View className='h-[12vw] w-full flex-row items-center justify-between px-4'>
-          <Headline className='text-lg font-bold pl-1'>Recent Transactions</Headline>
-          <Text className='text-[#e7a93e] font-bold'>View All</Text>
-          </View>
-          <View className='flex-row items-center justify-between px-4 h-[23vw] w-[91vw] rounded-xl border-[0.6px] bg-[#EDEDED]'>
-            
-            <View className='flex justify-center w-1/2 h-2/3'>
-            <Headline className='text-lg font-bold pl-1 m-0 '>Bill Payment</Headline>
-            <Text className='text-lg pl-1 m-0'>Hutch</Text>
+              <View className='flex justify-center w-1/2 h-2/3'>
+                <Headline className='text-lg font-bold pl-1 m-0 '>Bill Payment</Headline>
+                <Text className='text-lg pl-1 m-0'>Hutch</Text>
+              </View>
+
+              <View className='flex items-end justify-center w-1/2 h-2/3 '>
+                <View className='flex justify-center items-center flex-row '>
+                  <Text className='text-sm font-bold pl-1 m-0'>LKR</Text>
+                  <Text className='text-lg font-bold pl-1 m-0'>100.00</Text>
+                </View>
+                <Text className='text-base pl-1 m-0'>04-jul-24 11.06AM</Text>
+              </View>
             </View>
 
-            <View className='flex items-end justify-center w-1/2 h-2/3 '>
-            <View className='flex justify-center items-center flex-row '>
-            <Text className='text-sm font-bold pl-1 m-0'>LKR</Text>
-            <Text className='text-lg font-bold pl-1 m-0'>100.00</Text>
+            <View className='flex-row items-center justify-between mb-3 px-4 h-[23vw] w-[91vw] rounded-xl border-[0.6px] bg-[#EDEDED]'>
+
+              <View className='flex justify-center w-1/2 h-2/3'>
+                <Headline className='text-lg font-bold pl-1 m-0 '>Bill Payment</Headline>
+                <Text className='text-lg pl-1 m-0'>Dialog</Text>
+              </View>
+
+              <View className='flex items-end justify-center w-1/2 h-2/3 '>
+                <View className='flex justify-center items-center flex-row '>
+                  <Text className='text-sm font-bold pl-1 m-0'>LKR</Text>
+                  <Text className='text-lg font-bold pl-1 m-0'>200.00</Text>
+                </View>
+                <Text className='text-base pl-1 m-0'>04-jul-24 11.06AM</Text>
+              </View>
             </View>
-            <Text className='text-base pl-1 m-0'>04-jul-24 11.06AM</Text>
+
+            <View className='flex-row items-center justify-between mb-3 px-4 h-[23vw] w-[91vw] rounded-xl border-[0.6px] bg-[#EDEDED]'>
+
+              <View className='flex justify-center w-1/2 h-2/3'>
+                <Headline className='text-lg font-bold pl-1 m-0 '>Bill Payment</Headline>
+                <Text className='text-lg pl-1 m-0'>Hutch</Text>
+              </View>
+
+              <View className='flex items-end justify-center w-1/2 h-2/3 '>
+                <View className='flex justify-center items-center flex-row '>
+                  <Text className='text-sm font-bold pl-1 m-0'>LKR</Text>
+                  <Text className='text-lg font-bold pl-1 m-0'>100.00</Text>
+                </View>
+                <Text className='text-base pl-1 m-0'>04-jul-24 11.06AM</Text>
+              </View>
             </View>
-          </View>
 
           </View>
           
-          <Text className='mt-5 w-full text-center'>Yasas</Text>
-          <Text className='mt-5 w-full text-center'>Yasas</Text>
-          <Text className='mt-5 w-full text-center'>Yasas</Text>
-          <Text className='mt-5 w-full text-center'>Yasas</Text>
-          <Text className='mt-5 w-full text-center'>Yasas</Text>
-          <Text className='mt-5 w-full text-center'>Yasas</Text>
-          <Text className='mt-5 w-full text-center'>Yasas</Text>
-          <Text className='mt-5 w-full text-center'>Yasas</Text>
-          <Text className='mt-5 w-full text-center'>Yasas</Text>
-          <Text className='mt-5 w-full text-center'>Yasas</Text>
-          <Text className='mt-5 w-full text-center'>Yasas</Text>
-          <Text className='mt-5 w-full text-center'>Yasas</Text>
-          <Text className='mt-5 w-full text-center'>Yasas</Text>
-          <Text className='mt-5 w-full text-center'>Yasas</Text>
-          <Text className='mt-5 w-full text-center'>Yasas</Text>
-          <Text className='mt-5 w-full text-center'>Yasas</Text>
-          <Text className='mt-5 w-full text-center'>Yasas</Text>
-          <Text className='mt-5 w-full text-center'>Yasas</Text>
-          <Text className='mt-5 w-full text-center'>Yasas</Text>
-          <Text className='mt-5 w-full text-center'>Yasas</Text>
-          <Text className='mt-5 w-full text-center'>Yasas</Text>
-          <Text className='mt-5 w-full text-center'>Yasas</Text>
-          <Text className='mt-5 w-full text-center'>Yasas</Text>
-          <Text className='mt-5 w-full text-center'>Yasas</Text>
         </ScrollView>
       </View>
 
