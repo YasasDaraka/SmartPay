@@ -1,12 +1,18 @@
 import React from 'react'
-import { Image, View, StatusBar } from 'react-native'
+import { Image, View, StatusBar, TouchableOpacity } from 'react-native'
 import { Headline, Text } from 'react-native-paper'
 import { ScrollView } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { useRouter } from 'expo-router';
+
 const bell = require('../../../assets/images/bell.png');
 const smartpaylogo = require('../../../assets/images/smartpay.png');
 const promotion = require('../../../assets/images/promotion.png');
+
 export default function Dashboard() {
+
+  const router = useRouter();
+
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <View className='flex w-full h-full' >
@@ -47,7 +53,9 @@ export default function Dashboard() {
           <View className='flex flex-row items-center justify-around h-3/6 w-full bg-[#222222]' >
             <View className='w-[90vw] h-full flex flex-row items-center justify-around'>
               <View className='flex justify-center items-center'>
-                <View className={"bg-[#F1B041] w-[16vw] h-[16vw] rounded-full relative bottom-3"}></View>
+                <TouchableOpacity onPress={() => { router.navigate("screens/pages/FundTransfer") }} >
+                  <View className={"bg-[#F1B041] w-[16vw] h-[16vw] rounded-full relative bottom-3"}></View>
+                </TouchableOpacity>
                 <Text className='relative bottom-2 text-white'>Fund Tranfer</Text>
               </View>
 
@@ -57,12 +65,16 @@ export default function Dashboard() {
               </View>
 
               <View className='flex justify-center items-center'>
-                <View className={"bg-[#F1B041] w-[16vw] h-[16vw] rounded-full relative bottom-3"}></View>
+                <TouchableOpacity onPress={() => { router.navigate("screens/pages/BillPay") }} >
+                  <View className={"bg-[#F1B041] w-[16vw] h-[16vw] rounded-full relative bottom-3"}></View>
+                </TouchableOpacity>
                 <Text className='relative bottom-2 text-white'>Pay Bils</Text>
               </View>
 
               <View className='flex justify-center items-center'>
-                <View className={"bg-[#F1B041] w-[16vw] h-[16vw] rounded-full relative bottom-3"}></View>
+                <TouchableOpacity onPress={() => { router.navigate("screens/pages/Business") }} >
+                  <View className={"bg-[#F1B041] w-[16vw] h-[16vw] rounded-full relative bottom-3"}></View>
+                </TouchableOpacity>
                 <Text className='relative bottom-2 text-white'>My Shop</Text>
               </View>
 
