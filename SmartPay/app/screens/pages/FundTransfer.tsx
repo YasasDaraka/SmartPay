@@ -35,7 +35,7 @@ export default function FundTransfer() {
                     </View>
                 </LinearGradient>
 
-                <View className='flex items-center h-full w-full'>
+                <View className='flex items-center h-full w-full bg-white'>
                     <PagerView className='flex w-full h-2/3' initialPage={0} onPageSelected={handlePageChange} useNext={false}>
 
                         <View className='flex items-center h-full w-full' key="1" >
@@ -103,9 +103,7 @@ export default function FundTransfer() {
                                 <Headline className='text-xl font-extrabold right-4'>Request Money</Headline>
                             </View>
 
-                            <View className='flex justify-center items-center w-9 h-9 bg-[#403D1C] relative right-9 rounded-md'>
-                                <Image source={arrow} className='w-6 h-6'></Image>
-                            </View>
+                            
                         </View>
 
                     </View>
