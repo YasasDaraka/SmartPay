@@ -103,7 +103,9 @@ export default function FundTransfer() {
                                 <Headline className='text-xl font-extrabold right-4'>Request Money</Headline>
                             </View>
 
-                            
+                            <View className='flex justify-center items-center w-9 h-9 bg-[#403D1C] relative right-9 rounded-md'>
+                                <Image source={arrow} className='w-6 h-6'></Image>
+                            </View>
                         </View>
 
                     </View>
