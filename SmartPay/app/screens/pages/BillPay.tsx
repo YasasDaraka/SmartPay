@@ -54,7 +54,7 @@ export default function BillPay() {
                         </View>
 
                         <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
-                            <Headline className='text-xl font-bold'>Telecommunication</Headline>
+                            <Headline className='text-xl font-bold'>Utility</Headline>
                         </View>
                     </View>
 
@@ -65,7 +65,7 @@ export default function BillPay() {
                         </View>
 
                         <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
-                            <Headline className='text-xl font-bold'>Telecommunication</Headline>
+                            <Headline className='text-xl font-bold'>Credit Card Payments</Headline>
                         </View>
                     </View>
 
@@ -76,7 +76,7 @@ export default function BillPay() {
                         </View>
 
                         <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
-                            <Headline className='text-xl font-bold'>Telecommunication</Headline>
+                            <Headline className='text-xl font-bold'>TV</Headline>
                         </View>
                     </View>
 
@@ -87,7 +87,7 @@ export default function BillPay() {
                         </View>
 
                         <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
-                            <Headline className='text-xl font-bold'>Telecommunication</Headline>
+                            <Headline className='text-xl font-bold'>Insurance</Headline>
                         </View>
                     </View>
 
@@ -98,7 +98,7 @@ export default function BillPay() {
                         </View>
 
                         <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
-                            <Headline className='text-xl font-bold'>Telecommunication</Headline>
+                            <Headline className='text-xl font-bold'>Leasing</Headline>
                         </View>
                     </View>
 
@@ -109,7 +109,7 @@ export default function BillPay() {
                         </View>
 
                         <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
-                            <Headline className='text-xl font-bold'>Telecommunication</Headline>
+                            <Headline className='text-xl font-bold'>Education</Headline>
                         </View>
                     </View>
 
@@ -120,7 +120,7 @@ export default function BillPay() {
                         </View>
 
                         <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
-                            <Headline className='text-xl font-bold'>Telecommunication</Headline>
+                            <Headline className='text-xl font-bold'>Other</Headline>
                         </View>
                     </View>
 
