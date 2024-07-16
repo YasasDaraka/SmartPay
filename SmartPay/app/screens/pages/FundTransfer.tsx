@@ -7,6 +7,9 @@ import { useRouter } from 'expo-router';
 import PagerView from 'react-native-pager-view';
 const back = require('../../../assets/images/back.png');
 const sendmoney = require('../../../assets/images/sendmoney.png');
+const send2 = require('../../../assets/images/send2.png');
+const send3 = require('../../../assets/images/send3.png');
+const send4 = require('../../../assets/images/send4.png');
 const mobile = require('../../../assets/images/mobile.png');
 const arrow = require('../../../assets/images/arrowlight.png');
 
@@ -52,18 +55,93 @@ export default function FundTransfer() {
                                     <View className='h-full w-[45vw] '>
                                         <Image source={sendmoney} className='h-full w-full'></Image>
                                     </View>
-                                    <View className='h-full w-3/5 bg-red-800'></View>
+                                    <View className='flex justify-start items-start h-full w-3/5'>
+
+                                        <View className='flex flex-row items-center w-full h-[14vw]'>
+                                            <Text className='text-[#e7a93e] text-[3.8vw] font-extrabold'>Send Money </Text>
+                                            <Text className='text-[#e7a93e] text-[3.8vw]'>(New Beneficiary)</Text>
+                                        </View>
+
+                                        <View className='flex justify-center w-full h-1/6 bg-white mb-3'>
+                                            <View className='flex justify-center items-center rounded-full w-16 h-5 mb-1 bg-[#FCB117]'>
+                                                <Text className='font-extrabold'>Step 1</Text>
+                                            </View>
+                                            <Text className='text-black text-[3.8vw] font-bold'>Tap Send Money </Text>
+                                            <Text className='text-black text-[3.8vw] font-bold'>Tap "One Time Fund Tranfer"</Text>
+                                        </View>
+                                        
+                                        <View className='flex justify-center w-full h-1/6 bg-white mb-3'>
+                                            <View className='flex justify-center items-center rounded-full w-16 h-5 mb-1 bg-[#FCB117]'>
+                                                <Text className='font-extrabold'>Step 2</Text>
+                                            </View>
+                                            <Text className='text-black text-[3.8vw] font-bold'>Provide beneficiary details </Text>
+                                            <Text className='text-black text-[3.8vw] font-bold'>Tap confirm to send money</Text>
+                                        </View>
+                                        
+                                        <View className='flex justify-center w-full h-1/6 bg-white mb-3'>
+                                            <View className='flex justify-center items-center rounded-full w-16 h-5 mb-1 bg-[#FCB117]'>
+                                                <Text className='font-extrabold'>Step 3</Text>
+                                            </View>
+                                            <Text className='text-black text-[3.8vw] font-bold'>Save the beneficiary if you </Text>
+                                            <Text className='text-black text-[3.8vw] font-bold'>prefer</Text>
+                                        </View>
+                                    </View>
                                 </View>
                             </View>
                         </View>
                         <View className='flex justify-center items-center h-full w-full' key="2" >
-                            <Text>Step 2: Provide beneficiary details, Tap confirm to send money</Text>
+                            <View className='flex justify-center items-center h-1/5 w-full'>
+                                <Headline className='text-[25px] m-0 p-0 mt-10'>Sending money made</Headline>
+                                <View className='flex flex-row justify-center'>
+                                    <Headline className='m-0 p-0'>easy with </Headline>
+                                    <Headline className='text-[26px] font-bold m-0 p-0'>SmartPay</Headline>
+                                </View>
+                            </View>
+
+                            <View className='flex flex-col h-4/5 w-full'>
+                                <View className='flex flex-row h-full'>
+                                    <View className='h-full w-[45vw] '>
+                                        <Image source={send2} className='h-full w-full'></Image>
+                                    </View>
+                                    <View className='h-full w-3/5 bg-red-800'></View>
+                                </View>
+                            </View>
                         </View>
                         <View className='flex justify-center items-center h-full w-full' key="3" >
-                            <Text>Step 3: Save the beneficiary if you prefer</Text>
+                            <View className='flex justify-center items-center h-1/5 w-full'>
+                                <Headline className='text-[25px] m-0 p-0 mt-10'>Sending money made</Headline>
+                                <View className='flex flex-row justify-center'>
+                                    <Headline className='m-0 p-0'>easy with </Headline>
+                                    <Headline className='text-[26px] font-bold m-0 p-0'>SmartPay</Headline>
+                                </View>
+                            </View>
+
+                            <View className='flex flex-col h-4/5 w-full'>
+                                <View className='flex flex-row h-full'>
+                                    <View className='h-full w-[45vw] '>
+                                        <Image source={send3} className='h-full w-full'></Image>
+                                    </View>
+                                    <View className='h-full w-3/5 bg-red-800'></View>
+                                </View>
+                            </View>
                         </View>
                         <View className='flex justify-center items-center h-full w-full' key="4" >
-                            <Text>Step 3: Save the beneficiary if you prefer</Text>
+                            <View className='flex justify-center items-center h-1/5 w-full'>
+                                <Headline className='text-[25px] m-0 p-0 mt-10'>Sending money made</Headline>
+                                <View className='flex flex-row justify-center'>
+                                    <Headline className='m-0 p-0'>easy with </Headline>
+                                    <Headline className='text-[26px] font-bold m-0 p-0'>SmartPay</Headline>
+                                </View>
+                            </View>
+
+                            <View className='flex flex-col h-4/5 w-full'>
+                                <View className='flex flex-row h-full'>
+                                    <View className='h-full w-[45vw] '>
+                                        <Image source={send4} className='h-full w-full'></Image>
+                                    </View>
+                                    <View className='h-full w-3/5 bg-red-800'></View>
+                                </View>
+                            </View>
                         </View>
                     </PagerView>
 

@@ -30,8 +30,8 @@ export default function Dashboard() {
                   <View className='w-full h-1 bg-white rounded-full'></View>
                 </View>
               </View>
-              <View className='flex flex-row items-center bg-[#2F2F2F] w-2/3 h-full rounded-full'>
-                <View className=' relative left-2 w-14 h-5/6 rounded-full border-[#F1B041] border-[3px]'></View>
+              <View className='flex flex-row items-center bg-[#2F2F2F] w-[33.5vw] h-full rounded-full'>
+                <View className=' relative left-2 w-[14vw] h-[14vw] rounded-full border-[#F1B041] border-[3px]'></View>
                 <View className=' relative left-3 w-14 h-5/6 justify-center'>
                   <Text className='text-white ml-1'>Hello,</Text>
                   <Text className='font-bold text-white text-lg ml-1'>Yasas</Text>
