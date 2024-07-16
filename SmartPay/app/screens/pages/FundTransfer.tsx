@@ -180,10 +180,10 @@ export default function FundTransfer() {
                         </View>
                         <View className='flex justify-center items-center h-full w-full' key="4" >
                             <View className='flex justify-center items-center h-1/5 w-full'>
-                                <Headline className='text-[25px] m-0 p-0 mt-10'>Step 2</Headline>
+                                <Headline className='text-[25px] m-0 p-0 mt-10'>Sending money via QR</Headline>
                                 <View className='flex flex-row justify-center'>
-                                    <Headline className='m-0 p-0'></Headline>
-                                    <Headline className='text-[26px] font-bold m-0 p-0'></Headline>
+                                    <Headline className='m-0 p-0'>with </Headline>
+                                    <Headline className='text-[26px] font-bold m-0 p-0'>SmartPay</Headline>
                                 </View>
                             </View>
 
@@ -192,35 +192,37 @@ export default function FundTransfer() {
                                     <View className='h-full w-[45vw] '>
                                         <Image source={send4} className='h-full w-full'></Image>
                                     </View>
-                                    <View className='h-full w-3/5 bg-red-800'>
+                                    <View className='h-full w-3/5 ml-2'>
                                     
                                     <View className='flex flex-row items-center w-full h-[14vw]'>
                                             <Text className='text-[#e7a93e] text-[3.8vw] font-extrabold'>Send Money </Text>
-                                            <Text className='text-[#e7a93e] text-[3.8vw]'>(New Beneficiary)</Text>
+                                            <Text className='text-[#e7a93e] text-[3.8vw]'>QR</Text>
                                         </View>
 
-                                        <View className='flex justify-center w-full h-1/6 bg-white mb-3'>
+                                        <View className='flex justify-center w-full h-1/6 bg-white mb-6'>
                                             <View className='flex justify-center items-center rounded-full w-16 h-5 mb-1 bg-[#FCB117]'>
                                                 <Text className='font-extrabold'>Step 1</Text>
                                             </View>
                                             <Text className='text-black text-[3.8vw] font-bold'>Tap Send Money </Text>
-                                            <Text className='text-black text-[3.8vw] font-bold'>Tap "One Time Fund Tranfer"</Text>
+                                            <Text className='text-black text-[3.8vw] font-bold'>Tap One Time Fund Tranfer</Text>
+                                            <Text className='text-black text-[3.8vw] font-bold'>Tap using QR Scan</Text>
                                         </View>
                                         
-                                        <View className='flex justify-center w-full h-1/6 bg-white mb-3'>
+                                        <View className='flex justify-center w-full h-1/6 bg-white mb-6'>
                                             <View className='flex justify-center items-center rounded-full w-16 h-5 mb-1 bg-[#FCB117]'>
                                                 <Text className='font-extrabold'>Step 2</Text>
                                             </View>
-                                            <Text className='text-black text-[3.8vw] font-bold'>Provide beneficiary details </Text>
-                                            <Text className='text-black text-[3.8vw] font-bold'>Tap confirm to send money</Text>
+                                            <Text className='text-black text-[3.8vw] font-bold'>Scan or Upload Beneficiary's</Text>
+                                            <Text className='text-black text-[3.8vw] font-bold'>QR</Text>
+                                            <Text className='text-black text-[3.8vw] font-bold'>Check beneficiary details</Text>
                                         </View>
                                         
-                                        <View className='flex justify-center w-full h-1/6 bg-white mb-3'>
+                                        <View className='flex justify-center w-full h-1/6 bg-white mb-6'>
                                             <View className='flex justify-center items-center rounded-full w-16 h-5 mb-1 bg-[#FCB117]'>
                                                 <Text className='font-extrabold'>Step 3</Text>
                                             </View>
-                                            <Text className='text-black text-[3.8vw] font-bold'>Save the beneficiary if you </Text>
-                                            <Text className='text-black text-[3.8vw] font-bold'>prefer</Text>
+                                            <Text className='text-black text-[3.8vw] font-bold'>Add Amount</Text>
+                                            <Text className='text-black text-[3.8vw] font-bold'>Tap Confirm to Send Money</Text>
                                         </View>
 
                                     </View>
