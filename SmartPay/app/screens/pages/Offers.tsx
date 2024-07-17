@@ -5,7 +5,7 @@ import { LinearGradient } from 'expo-linear-gradient';
 import { Headline } from 'react-native-paper';
 import { useRouter } from 'expo-router';
 const back = require('../../../assets/images/back.png');
-
+const promotion = require('../../../assets/images/promotion.png');
 export default function Offers() {
     const router = useRouter();
     return (
@@ -26,7 +26,11 @@ export default function Offers() {
 
                     <ScrollView className='h-full w-full'>
 
-                        <View className='flex justify-center items-center h-full w-full mt-4'>
+                        <View className='flex justify-center items-center h-full w-full mt-3'>
+                        <Image source={promotion} className='h-[55vw] w-[91vw] mb-4'></Image>
+                        <Image source={promotion} className='h-[55vw] w-[91vw] mb-4'></Image>
+                        <Image source={promotion} className='h-[55vw] w-[91vw] mb-4'></Image>
+                        <Image source={promotion} className='h-[55vw] w-[91vw] mb-4'></Image>
                         </View>
                         
                     </ScrollView>
