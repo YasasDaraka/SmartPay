@@ -49,7 +49,7 @@ export default function Dashboard() {
           </View>
 
           <View className='flex justify-center items-center h-2/6 w-full' >
-            <Image source={smartpaylogo} className='h-20 w-44 relative bottom-1'></Image>
+            <Image source={smartpaylogo} className='h-[21vw] w-[47vw] relative right-1'></Image>
           </View>
 
           <View className='flex flex-row items-center justify-around h-3/6 w-full bg-[#222222]' >
