@@ -22,14 +22,34 @@ export default function Instruments() {
                         <Headline className='text-xl mt-2'>Payment Instruments</Headline>
                     </View>
                 </LinearGradient>
-                <View className='flex h-full w-full bg-white'>
+                <View className='flex h-full w-full bg-white items-center'>
+                    <View className='h-[76.5vh] w-full'>
+                        <ScrollView className='h-full w-full'>
 
-                    <ScrollView className='h-full w-full'>
+                            <View className='flex justify-center items-center h-[76.5vh] w-full mt-4'>
 
-                        <View className='flex justify-center items-center h-full w-full mt-4'>
+                                <View className=' flex items-center w-full h-[30vh] mb-4'>
+
+
+
+
+
+                                </View>
+
+                            </View>
+
+                        </ScrollView>
+
+                    </View>
+
+                    <View className='flex flex-row justify-center h-[22vw] w-[91vw] border-[0.2px] border-black rounded-lg'>
+                        <View className='flex justify-center items-center w-2/6 h-full'>
+                            <View className='flex justify-center items-center w-[12.5vw] h-[12.5vw] rounded-full border-[0.8px] border-black'></View>
                         </View>
-                        
-                    </ScrollView>
+                        <View className='flex justify-center w-4/6 h-full'>
+                            <Headline className='text-base font-extrabold'>Add new payment Instrument</Headline>
+                        </View>
+                    </View>
 
                 </View>
             </View>
