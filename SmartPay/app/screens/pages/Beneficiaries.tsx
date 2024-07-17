@@ -19,7 +19,7 @@ export default function Beneficiaries() {
                                 <Image source={back} className='w-6 h-6 mt-2'></Image>
                             </TouchableOpacity>
                         </View>
-                        <Headline className='text-xl mt-2'>Billers</Headline>
+                        <Headline className='text-xl mt-2'>Beneficiaries</Headline>
                     </View>
                 </LinearGradient>
                 <View className='flex h-full w-full bg-white items-center'>
@@ -28,18 +28,18 @@ export default function Beneficiaries() {
 
                             <View className='flex justify-center items-center h-[80vh] w-full mt-4'>
 
-                            <View className=' flex items-center w-full h-[30vh] mb-8'>
+                                <View className=' flex items-center w-full h-[30vh] mb-8'>
 
-                                <View className='flex justify-center items-center w-full h-3/5'>
-                                <Image source={beneficiaries} className='w-6 h-6 mt-2'></Image>
+                                    <View className='flex justify-center items-center w-full h-3/5'>
+                                        <Image source={beneficiaries} className='w-1/3 h-full'></Image>
+                                    </View>
+
+                                    <View className='flex justify-center items-center w-full h-2/5'>
+                                        <Headline className='text-xl'>You do not have any saved beneficiaries</Headline>
+                                        <Headline className='text-base'>Saved beneficiaries will appear here</Headline>
+                                    </View>
+
                                 </View>
-
-                                <View className='flex justify-center items-center w-full h-2/5'>
-                                <Headline className='text-xl'>You do not have any saved beneficiaries</Headline>
-                                <Headline className='text-base'>Saved beneficiaries will appear here</Headline>
-                                </View>
-
-                            </View>
 
                             </View>
 
@@ -48,7 +48,7 @@ export default function Beneficiaries() {
                     </View>
 
                     <View className='flex justify-center items-center w-5/6 h-[13vw] bg-[#FCB117] rounded-lg'>
-                        <Headline className='text-xl font-extrabold'>Add Biller</Headline>
+                        <Headline className='text-xl font-extrabold'>Add Beneficiaries</Headline>
                     </View>
 
                 </View>

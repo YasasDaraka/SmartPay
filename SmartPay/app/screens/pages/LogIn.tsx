@@ -12,7 +12,7 @@ export default function LogIn() {
       <SafeAreaView style={{ flex: 1 }}>
         <StatusBar barStyle="dark-content" backgroundColor="transparent" translucent />
         <View className='flex justify-center w-full h-full'>
-          <TouchableOpacity onPress={() => { router.navigate("screens/pages/Billers") }} >
+          <TouchableOpacity onPress={() => { router.navigate("screens/pages/Beneficiaries") }} >
             <Text className={"text-center text-white font-bold text-[4.5vw] mt-10"}>Fogot Your PI</Text>
           </TouchableOpacity>
         </View>
