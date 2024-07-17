@@ -6,7 +6,7 @@ import { Headline } from 'react-native-paper';
 import { useRouter } from 'expo-router';
 const back = require('../../../assets/images/back.png');
 const boc = require('../../../assets/images/boc.png');
-
+const plus = require('../../../assets/images/plus.png');
 export default function Instruments() {
     const router = useRouter();
     return (
@@ -57,7 +57,9 @@ export default function Instruments() {
 
                     <View className='flex flex-row justify-center h-[22vw] w-[91vw] border-[0.2px] border-black rounded-lg'>
                         <View className='flex justify-center items-center w-2/6 h-full'>
-                            <View className='flex justify-center items-center w-[12.5vw] h-[12.5vw] rounded-full border-[1px] border-black'></View>
+                            <View className='flex justify-center items-center w-[12.5vw] h-[12.5vw] rounded-full border-[1px] border-black'>
+                            <Image source={plus} className='w-5 h-5'></Image>
+                            </View>
                         </View>
                         <View className='flex justify-center w-4/6 h-full'>
                             <Headline className='text-base font-extrabold'>Add new payment Instrument</Headline>
