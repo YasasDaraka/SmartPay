@@ -7,7 +7,10 @@ import { useRouter } from 'expo-router';
 const back = require('../../../assets/images/back.png');
 const mobile = require('../../../assets/images/mobile.png');
 const arrow = require('../../../assets/images/blackarrow.png');
-
+const linkedin = require('../../../assets/images/linkedin.png');
+const facebook = require('../../../assets/images/facebook.png');
+const twiter = require('../../../assets/images/twiter.png');
+const whatsapp = require('../../../assets/images/whatsapp.png');
 export default function Contact() {
     const router = useRouter();
     return (
@@ -28,8 +31,32 @@ export default function Contact() {
 
                     <ScrollView className='h-full w-full'>
 
-                        <View className='flex justify-center items-center h-[89vh] w-full mt-4'>
+                        <View className='flex items-center h-[89vh] w-full mt-2'>
+                            <View className='flex items-center h-2/5 w-full'>
 
+                                <View className='flex justify-center h-2/6 w-full ml-8'>
+                                    <Headline className='text-lg font-extrabold mb-2'>Customer care & inquiries</Headline>
+                                    <Text className='text-base p-0'>Call Center</Text>
+                                    <Text className='text-base font-extrabold p-0 text-[#e7a93e]'>1975</Text>
+                                </View> 
+
+                                <View className='flex justify-center h-2/6 w-full ml-8'>
+                                    <Headline className='text-lg font-extrabold mb-2'>Reach us online</Headline>
+                                    <Text className='text-base p-0'>Website</Text>
+                                    <Text className='text-base font-extrabold p-0 text-[#e7a93e]'>www.boc.lk</Text>
+                                </View> 
+
+                                <View className='flex justify-start h-1/6 w-full ml-8'>
+                                    <Text className='text-base p-0'>Email</Text>
+                                    <Text className='text-base font-extrabold p-0 text-[#e7a93e]'>smartpay@boc.lk</Text>
+                                </View>
+                                <View className='flex flex-row justify-items-start items-center h-[10vh] w-full'>
+                                <Image source={linkedin} className='w-9 h-9 mr-4 ml-4'></Image>
+                                <Image source={twiter} className='w-9 h-9 mr-4 ml-4'></Image>
+                                <Image source={facebook} className='w-9 h-9 mr-4 ml-4'></Image>
+                                <Image source={whatsapp} className='w-9 h-9 mr-4 ml-4'></Image>
+                                </View>
+                            </View>
 
                         </View>
 
