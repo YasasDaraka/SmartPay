@@ -41,7 +41,9 @@ export default function Dashboard() {
 
             <View className='flex items-end w-1/2 h-full '>
               <View className='flex items-center justify-center h-full w-1/3'>
-                <Image source={bell} className='h-10 w-10 rotate-45 ml-3'></Image>
+                <TouchableOpacity onPress={() => { router.navigate("screens/pages/Notification") }} >
+                  <Image source={bell} className='h-10 w-10 rotate-45 ml-3'></Image>
+                </TouchableOpacity>
               </View>
             </View>
           </View>
