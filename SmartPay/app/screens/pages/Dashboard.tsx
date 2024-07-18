@@ -1,5 +1,5 @@
-import React from 'react'
-import { Image, View, StatusBar, TouchableOpacity } from 'react-native'
+import React, { useState } from 'react';
+import { Image, View, StatusBar, TouchableOpacity, Modal } from 'react-native'
 import { Headline, Text } from 'react-native-paper'
 import { ScrollView } from 'react-native'
 import { SafeAreaView } from 'react-native-safe-area-context';
@@ -8,27 +8,76 @@ import { useRouter } from 'expo-router';
 const bell = require('../../../assets/images/bell.png');
 const smartpaylogo = require('../../../assets/images/smartpay.png');
 const promotion = require('../../../assets/images/promotion.png');
-
+const mobile = require('../../../assets/images/phone.png');
+const plus = require('../../../assets/images/plus.png');
 export default function Dashboard() {
 
   const router = useRouter();
 
+  const [isSidebarVisible, setIsSidebarVisible] = useState(false);
+
+  const toggleSidebar = () => {
+    setIsSidebarVisible(!isSidebarVisible);
+  };
   return (
     <SafeAreaView style={{ flex: 1 }}>
       <View className='flex w-full h-full' >
         <StatusBar barStyle="light-content" backgroundColor="#222222" />
 
         <View className='h-1/3 w-full bg-[#222222]' >
+          <Modal
+            transparent={true}
+            animationType="slide"
+            visible={isSidebarVisible}
+            onRequestClose={toggleSidebar}
+          >
+            <View className='flex w-[90vw] h-full bg-slate-600'>
+              <View className='flex flex-row h-1/5 w-full bg-[#1C1C1C] rounded-b-3xl'>
+                <View className='w-1/4 h-full flex items-center'>
+                  <View className=' relative w-[15vw] mt-4 h-[15vw] rounded-full border-[#F1B041] border-[3px]'></View>
+                </View>
+                <View className='w-3/6 h-full'>
+                  <View className='h-2/6 w-full justify-center'>
+                    <Headline className='text-lg pl-1 text-white mt-6'>Yasas Jayalath</Headline>
+                  </View>
+
+                  <View className='flex flex-row h-1/5 w-full mb-2'>
+                    <View className='w-1/6 h-full flex justify-center items-start'>
+                    <Image source={mobile} className='h-5 w-5 ml-1'></Image>
+                    </View>
+                    <View className='w-4/6 h-full flex justify-center items-start'>
+                    <Text className='text-white'>0768008972</Text>
+                    </View>
+                  </View>
+
+                  <View className='h-2/6 w-full'>
+                   
+                    <View className='flex justify-center items-center rounded-full w-2/3 h-2/3 ml-1 bg-white'>
+                      <Text className='font-bold'>View Profile</Text>
+                    </View>
+                   
+                  </View>
+                </View>
+                <View className='flex items-center ml-6'>
+                <View className='flex justify-center mt-6 items-center w-[10vw] h-[10vw] rounded-full bg-[#484848]'>
+                            <Image source={plus} className='w-5 h-5 rotate-45'></Image>
+                            </View>
+                </View>
+              </View>
+            </View>
+          </Modal>
 
           <View className='flex flex-row items-center h-1/4 w-full mt-2' >
 
             <View className='flex flex-row w-1/2 h-full'>
               <View className='w-1/3 h-full flex justify-center items-center'>
-                <View className=' flex justify-between w-3/6 h-7'>
-                  <View className='w-2/3 h-1 bg-[#F1B041] rounded-full'></View>
-                  <View className='w-full h-1 bg-white rounded-full'></View>
-                  <View className='w-full h-1 bg-white rounded-full'></View>
-                </View>
+                <TouchableOpacity className='flex w-full h-full justify-center items-center' onPress={toggleSidebar} >
+                  <View className=' flex justify-between w-3/6 h-7'>
+                    <View className='w-2/3 h-1 bg-[#F1B041] rounded-full'></View>
+                    <View className='w-full h-1 bg-white rounded-full'></View>
+                    <View className='w-full h-1 bg-white rounded-full'></View>
+                  </View>
+                </TouchableOpacity>
               </View>
               <View className='flex flex-row items-center bg-[#2F2F2F] w-[33.5vw] h-full rounded-full'>
                 <View className=' relative left-2 w-[14vw] h-[14vw] rounded-full border-[#F1B041] border-[3px]'></View>
