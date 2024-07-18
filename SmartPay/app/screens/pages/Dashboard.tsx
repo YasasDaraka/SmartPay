@@ -27,7 +27,7 @@ export default function Dashboard() {
         <View className='h-1/3 w-full bg-[#222222]' >
           <Modal
             transparent={true}
-            animationType="slide"
+            animationType="none"
             visible={isSidebarVisible}
             onRequestClose={toggleSidebar}
           >
@@ -43,25 +43,27 @@ export default function Dashboard() {
 
                   <View className='flex flex-row h-1/5 w-full mb-2'>
                     <View className='w-1/6 h-full flex justify-center items-start'>
-                    <Image source={mobile} className='h-5 w-5 ml-1'></Image>
+                      <Image source={mobile} className='h-5 w-5 ml-1'></Image>
                     </View>
                     <View className='w-4/6 h-full flex justify-center items-start'>
-                    <Text className='text-white'>0768008972</Text>
+                      <Text className='text-white'>0768008972</Text>
                     </View>
                   </View>
 
                   <View className='h-2/6 w-full'>
-                   
+
                     <View className='flex justify-center items-center rounded-full w-2/3 h-2/3 ml-1 bg-white'>
                       <Text className='font-bold'>View Profile</Text>
                     </View>
-                   
+
                   </View>
                 </View>
                 <View className='flex items-center ml-6'>
-                <View className='flex justify-center mt-6 items-center w-[10vw] h-[10vw] rounded-full bg-[#484848]'>
-                            <Image source={plus} className='w-5 h-5 rotate-45'></Image>
-                            </View>
+                  <TouchableOpacity onPress={toggleSidebar} >
+                    <View className='flex justify-center mt-6 items-center w-[10vw] h-[10vw] rounded-full bg-[#484848]'>
+                      <Image source={plus} className='w-5 h-5 rotate-45'></Image>
+                    </View>
+                  </TouchableOpacity>
                 </View>
               </View>
             </View>
