@@ -10,6 +10,7 @@ const smartpaylogo = require('../../../assets/images/smartpay.png');
 const promotion = require('../../../assets/images/promotion.png');
 const mobile = require('../../../assets/images/phone.png');
 const plus = require('../../../assets/images/plus.png');
+const smartpaydark = require('../../../assets/images/smartpaydark.png');
 export default function Dashboard() {
 
   const router = useRouter();
@@ -185,6 +186,9 @@ export default function Dashboard() {
                   </TouchableOpacity>
                 </View>
 
+                <View className='flex justify-center items-center h-1/6 w-full absolute bottom-0' >
+                  <Image source={smartpaydark} className='h-5/6 w-3/6'></Image>
+                </View>
               </View>
             </View>
           </Modal>
