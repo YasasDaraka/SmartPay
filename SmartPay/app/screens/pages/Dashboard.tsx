@@ -11,6 +11,10 @@ const promotion = require('../../../assets/images/promotion.png');
 const mobile = require('../../../assets/images/phone.png');
 const plus = require('../../../assets/images/plus.png');
 const smartpaydark = require('../../../assets/images/smartpaydark.png');
+const fund = require('../../../assets/images/fund.png');
+const qr = require('../../../assets/images/qr.png');
+const bills = require('../../../assets/images/bills.png');
+const shop = require('../../../assets/images/shop.png');
 export default function Dashboard() {
 
   const router = useRouter();
@@ -187,7 +191,7 @@ export default function Dashboard() {
                 </View>
 
                 <View className='flex justify-center items-center h-1/6 w-full absolute bottom-0' >
-                  <Image source={smartpaydark} className='h-5/6 w-3/6'></Image>
+                  <Image source={smartpaydark} className='h-5/6 w-3/6 ml-4'></Image>
                 </View>
               </View>
             </View>
@@ -231,26 +235,34 @@ export default function Dashboard() {
             <View className='w-[90vw] h-full flex flex-row items-center justify-around'>
               <View className='flex justify-center items-center'>
                 <TouchableOpacity onPress={() => { router.navigate("screens/pages/FundTransfer") }} >
-                  <View className={"bg-[#F1B041] w-[16vw] h-[16vw] rounded-full relative bottom-3"}></View>
+                  <View className={"flex justify-center items-center bg-[#F1B041] w-[16vw] h-[16vw] rounded-full relative bottom-3"}>
+                  <Image source={fund} className='h-4/6 w-4/6'></Image>
+                  </View>
                 </TouchableOpacity>
                 <Text className='relative bottom-2 text-white'>Fund Tranfer</Text>
               </View>
 
               <View className='flex justify-center items-center'>
-                <View className={"bg-[#F1B041] w-[16vw] h-[16vw] rounded-full relative bottom-3"}></View>
+                <View className={"flex justify-center items-center bg-[#F1B041] w-[16vw] h-[16vw] rounded-full relative bottom-3"}>
+                <Image source={qr} className='h-4/6 w-4/6'></Image>
+                </View>
                 <Text className='relative bottom-2 text-white'>QR Payment</Text>
               </View>
 
               <View className='flex justify-center items-center'>
                 <TouchableOpacity onPress={() => { router.navigate("screens/pages/BillPay") }} >
-                  <View className={"bg-[#F1B041] w-[16vw] h-[16vw] rounded-full relative bottom-3"}></View>
+                  <View className={"flex justify-center items-center bg-[#F1B041] w-[16vw] h-[16vw] rounded-full relative bottom-3"}>
+                  <Image source={bills} className='h-4/6 w-4/6'></Image>
+                  </View>
                 </TouchableOpacity>
                 <Text className='relative bottom-2 text-white'>Pay Bils</Text>
               </View>
 
               <View className='flex justify-center items-center'>
                 <TouchableOpacity onPress={() => { router.navigate("screens/pages/Business") }} >
-                  <View className={"bg-[#F1B041] w-[16vw] h-[16vw] rounded-full relative bottom-3"}></View>
+                  <View className={"flex justify-center items-center bg-[#F1B041] w-[16vw] h-[16vw] rounded-full relative bottom-3"}>
+                  <Image source={shop} className='h-4/6 w-4/6'></Image>
+                  </View>
                 </TouchableOpacity>
                 <Text className='relative bottom-2 text-white'>My Shop</Text>
               </View>
