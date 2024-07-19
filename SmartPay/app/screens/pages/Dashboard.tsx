@@ -31,7 +31,7 @@ export default function Dashboard() {
             visible={isSidebarVisible}
             onRequestClose={toggleSidebar}
           >
-            <View className='flex w-[90vw] h-full bg-slate-600'>
+            <View className='flex w-[90vw] h-full'>
               <View className='flex flex-row h-1/5 w-full bg-[#1C1C1C] rounded-b-3xl'>
                 <View className='w-1/4 h-full flex items-center'>
                   <View className=' relative w-[15vw] mt-4 h-[15vw] rounded-full border-[#F1B041] border-[3px]'></View>
@@ -65,6 +65,108 @@ export default function Dashboard() {
                     </View>
                   </TouchableOpacity>
                 </View>
+              </View>
+
+              <View className='flex h-4/5 w-full bg-white px-2'>
+
+                <View className='flex-row bg-[#EDEDED] items-center justify-start px-4 mt-2 h-[6vh] border-r-[1.5vw] border-r-[#F1B041] w-full rounded-xl'>
+
+                  <View className='flex items-center justify-center w-16 h-2/3'>
+                    <Image source={plus} className='w-6 h-6 mr-4'></Image>
+                  </View>
+
+                  <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
+                    <Headline className='text-lg font-extrabold right-4'>Payment Instruments</Headline>
+                  </View>
+                </View>
+
+                <View className='flex-row bg-[#EDEDED] items-center justify-start px-4 mt-2 h-[6vh] border-r-[1.5vw] border-r-[#F1B041] w-full rounded-xl'>
+
+                  <View className='flex items-center justify-center w-16 h-2/3'>
+                    <Image source={plus} className='w-6 h-6 mr-4'></Image>
+                  </View>
+
+                  <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
+                    <Headline className='text-lg font-extrabold right-4'>Biller Management</Headline>
+                  </View>
+                </View>
+
+                <View className='flex-row bg-[#EDEDED] items-center justify-start px-4 mt-2 h-[6vh] border-r-[1.5vw] border-r-[#F1B041] w-full rounded-xl'>
+
+                  <View className='flex items-center justify-center w-16 h-2/3'>
+                    <Image source={plus} className='w-6 h-6 mr-4'></Image>
+                  </View>
+
+                  <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
+                    <Headline className='text-lg font-extrabold right-4'>Beneficiary Management</Headline>
+                  </View>
+                </View>
+
+                <View className='flex-row bg-[#EDEDED] items-center justify-start px-4 mt-2 h-[6vh] border-r-[1.5vw] border-r-[#F1B041] w-full rounded-xl'>
+
+                  <View className='flex items-center justify-center w-16 h-2/3'>
+                    <Image source={plus} className='w-6 h-6 mr-4'></Image>
+                  </View>
+
+                  <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
+                    <Headline className='text-lg font-extrabold right-4'>Terms and Conditions</Headline>
+                  </View>
+                </View>
+
+                <View className='flex-row bg-[#EDEDED] items-center justify-start px-4 mt-2 h-[6vh] border-r-[1.5vw] border-r-[#F1B041] w-full rounded-xl'>
+
+                  <View className='flex items-center justify-center w-16 h-2/3'>
+                    <Image source={plus} className='w-6 h-6 mr-4'></Image>
+                  </View>
+
+                  <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
+                    <Headline className='text-lg font-extrabold right-4'>Promotion</Headline>
+                  </View>
+                </View>
+
+                <View className='flex-row bg-[#EDEDED] items-center justify-start px-4 mt-2 h-[6vh] border-r-[1.5vw] border-r-[#F1B041] w-full rounded-xl'>
+
+                  <View className='flex items-center justify-center w-16 h-2/3'>
+                    <Image source={plus} className='w-6 h-6 mr-4'></Image>
+                  </View>
+
+                  <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
+                    <Headline className='text-lg font-extrabold right-4'>Contact Us</Headline>
+                  </View>
+                </View>
+
+                <View className='flex-row bg-[#EDEDED] items-center justify-start px-4 mt-2 h-[6vh] border-r-[1.5vw] border-r-[#F1B041] w-full rounded-xl'>
+
+                  <View className='flex items-center justify-center w-16 h-2/3'>
+                    <Image source={plus} className='w-6 h-6 mr-4'></Image>
+                  </View>
+
+                  <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
+                    <Headline className='text-lg font-extrabold right-4'>FAQ</Headline>
+                  </View>
+                </View>
+
+                <View className='flex-row bg-[#EDEDED] items-center justify-start px-4 mt-2 h-[6vh] border-r-[1.5vw] border-r-[#F1B041] w-full rounded-xl'>
+
+                  <View className='flex items-center justify-center w-16 h-2/3'>
+                    <Image source={plus} className='w-6 h-6 mr-4'></Image>
+                  </View>
+
+                  <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
+                    <Headline className='text-lg font-extrabold right-4'>Settings</Headline>
+                  </View>
+                </View>
+
+                <View className='flex-row bg-[#EDEDED] items-center justify-start px-4 mt-2 h-[6vh] border-r-[1.5vw] border-r-[#F1B041] w-full rounded-xl'>
+
+                  <View className='flex items-center justify-center w-16 h-2/3'>
+                    <Image source={plus} className='w-6 h-6 mr-4'></Image>
+                  </View>
+                  <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
+                    <Headline className='text-lg font-extrabold right-4'>Log Out</Headline>
+                  </View>
+                </View>
+
               </View>
             </View>
           </Modal>
