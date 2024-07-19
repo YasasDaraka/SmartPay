@@ -71,100 +71,118 @@ export default function Dashboard() {
 
                 <View className='flex-row bg-[#EDEDED] items-center justify-start px-4 mt-2 h-[6vh] border-r-[1.5vw] border-r-[#F1B041] w-full rounded-xl'>
 
-                  <View className='flex items-center justify-center w-16 h-2/3'>
-                    <Image source={plus} className='w-6 h-6 mr-4'></Image>
-                  </View>
+                  <TouchableOpacity className='flex-row' onPress={() => { toggleSidebar(); router.navigate("screens/pages/Instruments") }} >
+                    <View className='flex items-center justify-center w-16 h-2/3'>
+                      <Image source={plus} className='w-6 h-6 mr-4'></Image>
+                    </View>
 
-                  <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
-                    <Headline className='text-lg font-extrabold right-4'>Payment Instruments</Headline>
-                  </View>
+                    <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
+                      <Headline className='text-lg font-extrabold right-4'>Payment Instruments</Headline>
+                    </View>
+                  </TouchableOpacity>
                 </View>
 
                 <View className='flex-row bg-[#EDEDED] items-center justify-start px-4 mt-2 h-[6vh] border-r-[1.5vw] border-r-[#F1B041] w-full rounded-xl'>
+                  <TouchableOpacity className='flex-row' onPress={() => { toggleSidebar(); router.navigate("screens/pages/Billers") }} >
 
-                  <View className='flex items-center justify-center w-16 h-2/3'>
-                    <Image source={plus} className='w-6 h-6 mr-4'></Image>
-                  </View>
+                    <View className='flex items-center justify-center w-16 h-2/3'>
+                      <Image source={plus} className='w-6 h-6 mr-4'></Image>
+                    </View>
 
-                  <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
-                    <Headline className='text-lg font-extrabold right-4'>Biller Management</Headline>
-                  </View>
+                    <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
+                      <Headline className='text-lg font-extrabold right-4'>Biller Management</Headline>
+                    </View>
+                  </TouchableOpacity>
                 </View>
 
                 <View className='flex-row bg-[#EDEDED] items-center justify-start px-4 mt-2 h-[6vh] border-r-[1.5vw] border-r-[#F1B041] w-full rounded-xl'>
+                  <TouchableOpacity className='flex-row' onPress={() => { toggleSidebar(); router.navigate("screens/pages/Beneficiaries") }} >
 
-                  <View className='flex items-center justify-center w-16 h-2/3'>
-                    <Image source={plus} className='w-6 h-6 mr-4'></Image>
-                  </View>
+                    <View className='flex items-center justify-center w-16 h-2/3'>
+                      <Image source={plus} className='w-6 h-6 mr-4'></Image>
+                    </View>
 
-                  <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
-                    <Headline className='text-lg font-extrabold right-4'>Beneficiary Management</Headline>
-                  </View>
+                    <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
+                      <Headline className='text-lg font-extrabold right-4'>Beneficiary Management</Headline>
+                    </View>
+                  </TouchableOpacity>
                 </View>
 
                 <View className='flex-row bg-[#EDEDED] items-center justify-start px-4 mt-2 h-[6vh] border-r-[1.5vw] border-r-[#F1B041] w-full rounded-xl'>
+                  <TouchableOpacity className='flex-row' onPress={() => { toggleSidebar(); router.navigate("screens/pages/Terms") }} >
 
-                  <View className='flex items-center justify-center w-16 h-2/3'>
-                    <Image source={plus} className='w-6 h-6 mr-4'></Image>
-                  </View>
+                    <View className='flex items-center justify-center w-16 h-2/3'>
+                      <Image source={plus} className='w-6 h-6 mr-4'></Image>
+                    </View>
 
-                  <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
-                    <Headline className='text-lg font-extrabold right-4'>Terms and Conditions</Headline>
-                  </View>
+                    <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
+                      <Headline className='text-lg font-extrabold right-4'>Terms and Conditions</Headline>
+                    </View>
+                  </TouchableOpacity>
                 </View>
 
                 <View className='flex-row bg-[#EDEDED] items-center justify-start px-4 mt-2 h-[6vh] border-r-[1.5vw] border-r-[#F1B041] w-full rounded-xl'>
+                  <TouchableOpacity className='flex-row' onPress={() => { toggleSidebar(); router.navigate("screens/pages/Offers") }} >
 
-                  <View className='flex items-center justify-center w-16 h-2/3'>
-                    <Image source={plus} className='w-6 h-6 mr-4'></Image>
-                  </View>
+                    <View className='flex items-center justify-center w-16 h-2/3'>
+                      <Image source={plus} className='w-6 h-6 mr-4'></Image>
+                    </View>
 
-                  <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
-                    <Headline className='text-lg font-extrabold right-4'>Promotion</Headline>
-                  </View>
+                    <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
+                      <Headline className='text-lg font-extrabold right-4'>Promotion</Headline>
+                    </View>
+                  </TouchableOpacity>
                 </View>
 
                 <View className='flex-row bg-[#EDEDED] items-center justify-start px-4 mt-2 h-[6vh] border-r-[1.5vw] border-r-[#F1B041] w-full rounded-xl'>
+                  <TouchableOpacity className='flex-row' onPress={() => { toggleSidebar(); router.navigate("screens/pages/Contact") }} >
 
-                  <View className='flex items-center justify-center w-16 h-2/3'>
-                    <Image source={plus} className='w-6 h-6 mr-4'></Image>
-                  </View>
+                    <View className='flex items-center justify-center w-16 h-2/3'>
+                      <Image source={plus} className='w-6 h-6 mr-4'></Image>
+                    </View>
 
-                  <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
-                    <Headline className='text-lg font-extrabold right-4'>Contact Us</Headline>
-                  </View>
+                    <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
+                      <Headline className='text-lg font-extrabold right-4'>Contact Us</Headline>
+                    </View>
+                  </TouchableOpacity>
                 </View>
 
                 <View className='flex-row bg-[#EDEDED] items-center justify-start px-4 mt-2 h-[6vh] border-r-[1.5vw] border-r-[#F1B041] w-full rounded-xl'>
+                  <TouchableOpacity className='flex-row' onPress={() => { toggleSidebar(); router.navigate("screens/pages/FAQ") }} >
 
-                  <View className='flex items-center justify-center w-16 h-2/3'>
-                    <Image source={plus} className='w-6 h-6 mr-4'></Image>
-                  </View>
+                    <View className='flex items-center justify-center w-16 h-2/3'>
+                      <Image source={plus} className='w-6 h-6 mr-4'></Image>
+                    </View>
 
-                  <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
-                    <Headline className='text-lg font-extrabold right-4'>FAQ</Headline>
-                  </View>
+                    <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
+                      <Headline className='text-lg font-extrabold right-4'>FAQ</Headline>
+                    </View>
+                  </TouchableOpacity>
                 </View>
 
                 <View className='flex-row bg-[#EDEDED] items-center justify-start px-4 mt-2 h-[6vh] border-r-[1.5vw] border-r-[#F1B041] w-full rounded-xl'>
+                  <TouchableOpacity className='flex-row' onPress={() => { toggleSidebar(); router.navigate("screens/pages/Settings") }} >
 
-                  <View className='flex items-center justify-center w-16 h-2/3'>
-                    <Image source={plus} className='w-6 h-6 mr-4'></Image>
-                  </View>
+                    <View className='flex items-center justify-center w-16 h-2/3'>
+                      <Image source={plus} className='w-6 h-6 mr-4'></Image>
+                    </View>
 
-                  <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
-                    <Headline className='text-lg font-extrabold right-4'>Settings</Headline>
-                  </View>
+                    <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
+                      <Headline className='text-lg font-extrabold right-4'>Settings</Headline>
+                    </View>
+                  </TouchableOpacity>
                 </View>
 
                 <View className='flex-row bg-[#EDEDED] items-center justify-start px-4 mt-2 h-[6vh] border-r-[1.5vw] border-r-[#F1B041] w-full rounded-xl'>
+                  <TouchableOpacity className='flex-row' onPress={() => { toggleSidebar(); router.navigate("screens/pages/LogIn") }} >
 
-                  <View className='flex items-center justify-center w-16 h-2/3'>
-                    <Image source={plus} className='w-6 h-6 mr-4'></Image>
-                  </View>
-                  <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
-                    <Headline className='text-lg font-extrabold right-4'>Log Out</Headline>
-                  </View>
+                    <View className='flex items-center justify-center w-16 h-2/3'>
+                      <Image source={plus} className='w-6 h-6 mr-4'></Image>
+                    </View>
+                    <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
+                      <Headline className='text-lg font-extrabold right-4'>Log Out</Headline>
+                    </View>
+                  </TouchableOpacity>
                 </View>
 
               </View>
