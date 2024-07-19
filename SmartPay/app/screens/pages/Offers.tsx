@@ -6,6 +6,8 @@ import { Headline } from 'react-native-paper';
 import { useRouter } from 'expo-router';
 const back = require('../../../assets/images/back.png');
 const promotion = require('../../../assets/images/promotion.png');
+const promotion2 = require('../../../assets/images/promotion2.png');
+const promotion3 = require('../../../assets/images/promotion3.png');
 export default function Offers() {
     const router = useRouter();
     return (
@@ -27,10 +29,18 @@ export default function Offers() {
                     <ScrollView className='h-full w-full'>
 
                         <View className='flex justify-center items-center h-full w-full mt-3'>
-                        <Image source={promotion} className='h-[55vw] w-[91vw] mb-4'></Image>
-                        <Image source={promotion} className='h-[55vw] w-[91vw] mb-4'></Image>
-                        <Image source={promotion} className='h-[55vw] w-[91vw] mb-4'></Image>
-                        <Image source={promotion} className='h-[55vw] w-[91vw] mb-4'></Image>
+                            <View className='h-[52vw] w-[92vw] mb-4 shadow-md shadow-black'>
+                            <Image source={promotion3} className='h-full w-full'></Image>
+                            </View>
+
+                            <View className='h-[52vw] w-[92vw] mb-4 shadow-md shadow-black'>
+                            <Image source={promotion2} className='h-full w-full'></Image>
+                            </View>
+
+                            <View className='h-[55vw] w-[92vw] mb-4 shadow-md shadow-black'>
+                            <Image source={promotion} className='h-full w-full'></Image>
+                            </View>
+                    
                         </View>
                         
                     </ScrollView>
