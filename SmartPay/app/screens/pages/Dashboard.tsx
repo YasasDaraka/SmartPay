@@ -15,6 +15,15 @@ const fund = require('../../../assets/images/fund.png');
 const qr = require('../../../assets/images/qr.png');
 const bills = require('../../../assets/images/bills.png');
 const shop = require('../../../assets/images/shop.png');
+const payments = require('../../../assets/images/payments.png');
+const billicon = require('../../../assets/images/billicon.png');
+const benef = require('../../../assets/images/benef.png');
+const terms = require('../../../assets/images/terms.png');
+const promo = require('../../../assets/images/promo.png');
+const faq = require('../../../assets/images/faq.png');
+const settings = require('../../../assets/images/settings.png');
+const logout = require('../../../assets/images/logout.png');
+const mobileicon = require('../../../assets/images/mobileicon.png');
 export default function Dashboard() {
 
   const router = useRouter();
@@ -78,7 +87,7 @@ export default function Dashboard() {
 
                   <TouchableOpacity className='flex-row' onPress={() => { toggleSidebar(); router.navigate("screens/pages/Instruments") }} >
                     <View className='flex items-center justify-center w-10 h-2/3'>
-                      <Image source={plus} className='w-6 h-6 mr-2'></Image>
+                      <Image source={payments} className='w-8 h-8 mr-2'></Image>
                     </View>
 
                     <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
@@ -91,7 +100,7 @@ export default function Dashboard() {
                   <TouchableOpacity className='flex-row' onPress={() => { toggleSidebar(); router.navigate("screens/pages/Billers") }} >
 
                     <View className='flex items-center justify-center w-10 h-2/3'>
-                      <Image source={plus} className='w-6 h-6 mr-2'></Image>
+                      <Image source={billicon} className='w-8 h-8 mr-2'></Image>
                     </View>
 
                     <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
@@ -104,7 +113,7 @@ export default function Dashboard() {
                   <TouchableOpacity className='flex-row' onPress={() => { toggleSidebar(); router.navigate("screens/pages/Beneficiaries") }} >
 
                     <View className='flex items-center justify-center w-10 h-2/3'>
-                      <Image source={plus} className='w-6 h-6 mr-2'></Image>
+                      <Image source={benef} className='w-8 h-8 mr-2'></Image>
                     </View>
 
                     <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
@@ -117,7 +126,7 @@ export default function Dashboard() {
                   <TouchableOpacity className='flex-row' onPress={() => { toggleSidebar(); router.navigate("screens/pages/Terms") }} >
 
                     <View className='flex items-center justify-center w-10 h-2/3'>
-                      <Image source={plus} className='w-6 h-6 mr-2'></Image>
+                      <Image source={terms} className='w-8 h-8 mr-2'></Image>
                     </View>
 
                     <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
@@ -130,7 +139,7 @@ export default function Dashboard() {
                   <TouchableOpacity className='flex-row' onPress={() => { toggleSidebar(); router.navigate("screens/pages/Offers") }} >
 
                     <View className='flex items-center justify-center w-10 h-2/3'>
-                      <Image source={plus} className='w-6 h-6 mr-2'></Image>
+                      <Image source={promo} className='w-8 h-8 mr-2'></Image>
                     </View>
 
                     <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
@@ -143,7 +152,7 @@ export default function Dashboard() {
                   <TouchableOpacity className='flex-row' onPress={() => { toggleSidebar(); router.navigate("screens/pages/Contact") }} >
 
                     <View className='flex items-center justify-center w-10 h-2/3'>
-                      <Image source={plus} className='w-6 h-6 mr-2'></Image>
+                      <Image source={mobileicon} className='w-8 h-8 mr-2'></Image>
                     </View>
 
                     <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
@@ -156,7 +165,7 @@ export default function Dashboard() {
                   <TouchableOpacity className='flex-row' onPress={() => { toggleSidebar(); router.navigate("screens/pages/FAQ") }} >
 
                     <View className='flex items-center justify-center w-10 h-2/3'>
-                      <Image source={plus} className='w-6 h-6 mr-2'></Image>
+                      <Image source={faq} className='w-8 h-8 mr-2'></Image>
                     </View>
 
                     <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
@@ -169,7 +178,7 @@ export default function Dashboard() {
                   <TouchableOpacity className='flex-row' onPress={() => { toggleSidebar(); router.navigate("screens/pages/Settings") }} >
 
                     <View className='flex items-center justify-center w-10 h-2/3'>
-                      <Image source={plus} className='w-6 h-6 mr-2'></Image>
+                      <Image source={settings} className='w-8 h-8 mr-2'></Image>
                     </View>
 
                     <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
@@ -182,7 +191,7 @@ export default function Dashboard() {
                   <TouchableOpacity className='flex-row' onPress={() => { toggleSidebar(); router.navigate("screens/pages/LogIn") }} >
 
                     <View className='flex items-center justify-center w-10 h-2/3'>
-                      <Image source={plus} className='w-6 h-6 mr-2'></Image>
+                      <Image source={logout} className='w-8 h-8 mr-2'></Image>
                     </View>
                     <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
                       <Headline className='text-lg font-extrabold right-4'>Log Out</Headline>
