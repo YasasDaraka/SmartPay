@@ -10,7 +10,7 @@ const sendmoney = require('../../../assets/images/sendmoney.png');
 const send2 = require('../../../assets/images/send2.png');
 const send3 = require('../../../assets/images/send3.png');
 const send4 = require('../../../assets/images/send4.png');
-const mobile = require('../../../assets/images/mobile.png');
+const sendcash = require('../../../assets/images/sendcash.png');
 const arrow = require('../../../assets/images/arrowlight.png');
 
 export default function FundTransfer() {
@@ -245,7 +245,7 @@ export default function FundTransfer() {
                         <View className='flex-row bg-white items-center justify-start px-4 h-2/5 w-[94vw] rounded-xl border-[1px] border-black'>
 
                             <View className='flex items-center justify-center w-16 h-2/3'>
-                                <Image source={mobile} className='w-11 h-11 mr-4'></Image>
+                                <Image source={sendcash} className='w-11 h-11 mr-4'></Image>
                             </View>
 
                             <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
@@ -260,7 +260,7 @@ export default function FundTransfer() {
                         <View className='flex-row bg-white items-center justify-start px-4 mt-3 h-2/5 w-[94vw] rounded-xl border-[1px] border-black'>
 
                             <View className='flex items-center justify-center w-16 h-2/3'>
-                                <Image source={mobile} className='w-11 h-11 mr-4'></Image>
+                                <Image source={sendcash} className='w-11 h-11 mr-4'></Image>
                             </View>
 
                             <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
