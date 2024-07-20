@@ -6,6 +6,7 @@ import { Headline } from 'react-native-paper';
 import { useRouter } from 'expo-router';
 const back = require('../../../assets/images/back.png');
 const plus = require('../../../assets/images/plus.png');
+const backyellow = require('../../../assets/images/backyellow.png');
 export default function FAQ() {
     const router = useRouter();
     return (
@@ -27,13 +28,15 @@ export default function FAQ() {
                     <ScrollView className='h-full w-full'>
 
                         <View className='flex justify-center items-center h-full w-full mt-2 px-2'>
-                            
+
                             <View className='flex-row bg-[#EDEDED] items-center justify-start px-4 mt-2 h-[7vh] border-l-[1.5vw] border-l-[#F1B041] w-full rounded-xl'>
                                 <View className='flex ml-2 justify-center w-[65vw] h-2/3 '>
                                     <Headline className='text-lg font-extrabold'>What is SmartPay</Headline>
                                 </View>
                                 <View className='flex items-center justify-center w-10 h-2/3 absolute right-2'>
-                                    <Image source={plus} className='w-6 h-6'></Image>
+                                    <View className='w-6 h-6 flex justify-center items-center border-black border-2 rounded-full'>
+                                        <Image source={backyellow} className='w-4/6 h-4/6'></Image>
+                                    </View>
                                 </View>
                             </View>
 
@@ -42,7 +45,9 @@ export default function FAQ() {
                                     <Headline className='text-lg font-extrabold'>Is a bank involved with SmartPay</Headline>
                                 </View>
                                 <View className='flex items-center justify-center w-10 h-2/3 absolute right-2'>
-                                    <Image source={plus} className='w-6 h-6'></Image>
+                                    <View className='w-6 h-6 flex justify-center items-center border-black border-2 rounded-full'>
+                                        <Image source={backyellow} className='w-4/6 h-4/6'></Image>
+                                    </View>
                                 </View>
                             </View>
 
@@ -51,16 +56,20 @@ export default function FAQ() {
                                     <Headline className='text-lg font-extrabold'>How to signup for SmartPay</Headline>
                                 </View>
                                 <View className='flex items-center justify-center w-10 h-2/3 absolute right-2'>
-                                    <Image source={plus} className='w-6 h-6'></Image>
+                                    <View className='w-6 h-6 flex justify-center items-center border-black border-2 rounded-full'>
+                                        <Image source={backyellow} className='w-4/6 h-4/6'></Image>
+                                    </View>
                                 </View>
                             </View>
 
-                            <View className='flex-row bg-[#EDEDED] items-center justify-start px-4 mt-2 h-[7vh] border-l-[1.5vw] border-l-[#F1B041] w-full rounded-xl'>
+                            <View className='flex-row bg-[#EDEDED] items-center justify-start px-4 mt-2 h-[7.7vh] border-l-[1.5vw] border-l-[#F1B041] w-full rounded-xl'>
                                 <View className='flex ml-2 justify-center w-[76vw] h-2/3 '>
-                                    <Headline className='text-lg font-extrabold'>SmartPay compatible with any device</Headline>
+                                    <Headline className='text-lg font-extrabold mb-2'>SmartPay compatible with any device</Headline>
                                 </View>
                                 <View className='flex items-center justify-center w-10 h-2/3 absolute right-2'>
-                                    <Image source={plus} className='w-6 h-6'></Image>
+                                    <View className='w-6 h-6 flex justify-center items-center mb-1 border-black border-2 rounded-full'>
+                                        <Image source={backyellow} className='w-4/6 h-4/6'></Image>
+                                    </View>
                                 </View>
                             </View>
                         </View>

@@ -10,7 +10,7 @@ const smartpaylogo = require('../../../assets/images/smartpay.png');
 const promotion = require('../../../assets/images/promotion.png');
 const mobile = require('../../../assets/images/phone.png');
 const plus = require('../../../assets/images/plus.png');
-const smartpaydark = require('../../../assets/images/smartpaydark.png');
+const smartpaydark = require('../../../assets/images/smartpaydark3.png');
 const fund = require('../../../assets/images/fund.png');
 const qr = require('../../../assets/images/qr.png');
 const bills = require('../../../assets/images/bills.png');
@@ -77,8 +77,8 @@ export default function Dashboard() {
                 <View className='flex-row bg-[#EDEDED] items-center justify-start px-4 mt-2 h-[6vh] border-r-[1.5vw] border-r-[#F1B041] w-full rounded-xl'>
 
                   <TouchableOpacity className='flex-row' onPress={() => { toggleSidebar(); router.navigate("screens/pages/Instruments") }} >
-                    <View className='flex items-center justify-center w-16 h-2/3'>
-                      <Image source={plus} className='w-6 h-6 mr-4'></Image>
+                    <View className='flex items-center justify-center w-10 h-2/3'>
+                      <Image source={plus} className='w-6 h-6 mr-2'></Image>
                     </View>
 
                     <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
@@ -90,8 +90,8 @@ export default function Dashboard() {
                 <View className='flex-row bg-[#EDEDED] items-center justify-start px-4 mt-2 h-[6vh] border-r-[1.5vw] border-r-[#F1B041] w-full rounded-xl'>
                   <TouchableOpacity className='flex-row' onPress={() => { toggleSidebar(); router.navigate("screens/pages/Billers") }} >
 
-                    <View className='flex items-center justify-center w-16 h-2/3'>
-                      <Image source={plus} className='w-6 h-6 mr-4'></Image>
+                    <View className='flex items-center justify-center w-10 h-2/3'>
+                      <Image source={plus} className='w-6 h-6 mr-2'></Image>
                     </View>
 
                     <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
@@ -103,8 +103,8 @@ export default function Dashboard() {
                 <View className='flex-row bg-[#EDEDED] items-center justify-start px-4 mt-2 h-[6vh] border-r-[1.5vw] border-r-[#F1B041] w-full rounded-xl'>
                   <TouchableOpacity className='flex-row' onPress={() => { toggleSidebar(); router.navigate("screens/pages/Beneficiaries") }} >
 
-                    <View className='flex items-center justify-center w-16 h-2/3'>
-                      <Image source={plus} className='w-6 h-6 mr-4'></Image>
+                    <View className='flex items-center justify-center w-10 h-2/3'>
+                      <Image source={plus} className='w-6 h-6 mr-2'></Image>
                     </View>
 
                     <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
@@ -116,8 +116,8 @@ export default function Dashboard() {
                 <View className='flex-row bg-[#EDEDED] items-center justify-start px-4 mt-2 h-[6vh] border-r-[1.5vw] border-r-[#F1B041] w-full rounded-xl'>
                   <TouchableOpacity className='flex-row' onPress={() => { toggleSidebar(); router.navigate("screens/pages/Terms") }} >
 
-                    <View className='flex items-center justify-center w-16 h-2/3'>
-                      <Image source={plus} className='w-6 h-6 mr-4'></Image>
+                    <View className='flex items-center justify-center w-10 h-2/3'>
+                      <Image source={plus} className='w-6 h-6 mr-2'></Image>
                     </View>
 
                     <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
@@ -129,8 +129,8 @@ export default function Dashboard() {
                 <View className='flex-row bg-[#EDEDED] items-center justify-start px-4 mt-2 h-[6vh] border-r-[1.5vw] border-r-[#F1B041] w-full rounded-xl'>
                   <TouchableOpacity className='flex-row' onPress={() => { toggleSidebar(); router.navigate("screens/pages/Offers") }} >
 
-                    <View className='flex items-center justify-center w-16 h-2/3'>
-                      <Image source={plus} className='w-6 h-6 mr-4'></Image>
+                    <View className='flex items-center justify-center w-10 h-2/3'>
+                      <Image source={plus} className='w-6 h-6 mr-2'></Image>
                     </View>
 
                     <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
@@ -142,8 +142,8 @@ export default function Dashboard() {
                 <View className='flex-row bg-[#EDEDED] items-center justify-start px-4 mt-2 h-[6vh] border-r-[1.5vw] border-r-[#F1B041] w-full rounded-xl'>
                   <TouchableOpacity className='flex-row' onPress={() => { toggleSidebar(); router.navigate("screens/pages/Contact") }} >
 
-                    <View className='flex items-center justify-center w-16 h-2/3'>
-                      <Image source={plus} className='w-6 h-6 mr-4'></Image>
+                    <View className='flex items-center justify-center w-10 h-2/3'>
+                      <Image source={plus} className='w-6 h-6 mr-2'></Image>
                     </View>
 
                     <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
@@ -155,8 +155,8 @@ export default function Dashboard() {
                 <View className='flex-row bg-[#EDEDED] items-center justify-start px-4 mt-2 h-[6vh] border-r-[1.5vw] border-r-[#F1B041] w-full rounded-xl'>
                   <TouchableOpacity className='flex-row' onPress={() => { toggleSidebar(); router.navigate("screens/pages/FAQ") }} >
 
-                    <View className='flex items-center justify-center w-16 h-2/3'>
-                      <Image source={plus} className='w-6 h-6 mr-4'></Image>
+                    <View className='flex items-center justify-center w-10 h-2/3'>
+                      <Image source={plus} className='w-6 h-6 mr-2'></Image>
                     </View>
 
                     <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
@@ -168,8 +168,8 @@ export default function Dashboard() {
                 <View className='flex-row bg-[#EDEDED] items-center justify-start px-4 mt-2 h-[6vh] border-r-[1.5vw] border-r-[#F1B041] w-full rounded-xl'>
                   <TouchableOpacity className='flex-row' onPress={() => { toggleSidebar(); router.navigate("screens/pages/Settings") }} >
 
-                    <View className='flex items-center justify-center w-16 h-2/3'>
-                      <Image source={plus} className='w-6 h-6 mr-4'></Image>
+                    <View className='flex items-center justify-center w-10 h-2/3'>
+                      <Image source={plus} className='w-6 h-6 mr-2'></Image>
                     </View>
 
                     <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
@@ -181,8 +181,8 @@ export default function Dashboard() {
                 <View className='flex-row bg-[#EDEDED] items-center justify-start px-4 mt-2 h-[6vh] border-r-[1.5vw] border-r-[#F1B041] w-full rounded-xl'>
                   <TouchableOpacity className='flex-row' onPress={() => { toggleSidebar(); router.navigate("screens/pages/LogIn") }} >
 
-                    <View className='flex items-center justify-center w-16 h-2/3'>
-                      <Image source={plus} className='w-6 h-6 mr-4'></Image>
+                    <View className='flex items-center justify-center w-10 h-2/3'>
+                      <Image source={plus} className='w-6 h-6 mr-2'></Image>
                     </View>
                     <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
                       <Headline className='text-lg font-extrabold right-4'>Log Out</Headline>
@@ -191,7 +191,7 @@ export default function Dashboard() {
                 </View>
 
                 <View className='flex justify-center items-center h-1/6 w-full absolute bottom-0' >
-                  <Image source={smartpaydark} className='h-5/6 w-3/6 ml-4'></Image>
+                  <Image source={smartpaydark} className='h-4/5 w-2/5 ml-6'></Image>
                 </View>
               </View>
             </View>
