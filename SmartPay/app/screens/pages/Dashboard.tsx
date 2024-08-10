@@ -48,7 +48,7 @@ export default function Dashboard() {
             <View className='flex w-[90vw] h-full'>
               <View className='flex flex-row h-1/5 w-full bg-[#1C1C1C] rounded-b-3xl'>
                 <View className='w-1/4 h-full flex items-center'>
-                  <View className=' relative w-[15vw] mt-4 h-[15vw] rounded-full border-[#F1B041] border-[3px]'></View>
+                  <View className=' relative w-[15vw] mt-7 h-[15vw] rounded-full border-[#F1B041] border-[3px]'></View>
                 </View>
                 <View className='w-3/6 h-full'>
                   <View className='h-2/6 w-full justify-center'>

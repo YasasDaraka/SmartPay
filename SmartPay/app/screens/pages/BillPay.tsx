@@ -2,13 +2,19 @@ import React from 'react'
 import { View, StatusBar, Image, Text, TouchableOpacity, ScrollView } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { LinearGradient } from 'expo-linear-gradient';
-import { Headline } from 'react-native-paper';
+import { Card, Headline } from 'react-native-paper';
 import { useRouter } from 'expo-router';
 const back = require('../../../assets/images/back.png');
 const search = require('../../../assets/images/search.png');
-const electric = require('../../../assets/images/electric.png');
 const mobile = require('../../../assets/images/mobile.png');
 
+const utility = require('../../../assets/images/utility.png');
+const credit = require('../../../assets/images/credit.png');
+const tv = require('../../../assets/images/tv.png');
+const insurance = require('../../../assets/images/insurance.png');
+const leasing = require('../../../assets/images/leasing.png');
+const education = require('../../../assets/images/education.png');
+const other = require('../../../assets/images/more.png');
 export default function BillPay() {
 
     const router = useRouter();
@@ -50,7 +56,7 @@ export default function BillPay() {
                             <View className='flex-row bg-white items-center justify-start px-4 mt-3 h-[20.5vw] w-[94vw] rounded-xl border-[0.8px] border-gray-500'>
 
                                 <View className='flex items-center justify-center w-16 h-2/3'>
-                                    <Image source={mobile} className='w-12 h-12'></Image>
+                                    <Image source={utility} className='w-12 h-12'></Image>
                                 </View>
 
                                 <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
@@ -61,7 +67,7 @@ export default function BillPay() {
                             <View className='flex-row bg-white items-center justify-start px-4 mt-3 h-[20.5vw] w-[94vw] rounded-xl border-[0.8px] border-gray-500'>
 
                                 <View className='flex items-center justify-center w-16 h-2/3'>
-                                    <Image source={mobile} className='w-12 h-12'></Image>
+                                    <Image source={credit} className='w-12 h-12'></Image>
                                 </View>
 
                                 <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
@@ -72,7 +78,7 @@ export default function BillPay() {
                             <View className='flex-row bg-white items-center justify-start px-4 mt-3 h-[20.5vw] w-[94vw] rounded-xl border-[0.8px] border-gray-500'>
 
                                 <View className='flex items-center justify-center w-16 h-2/3'>
-                                    <Image source={mobile} className='w-12 h-12'></Image>
+                                    <Image source={tv} className='w-12 h-12'></Image>
                                 </View>
 
                                 <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
@@ -83,7 +89,7 @@ export default function BillPay() {
                             <View className='flex-row bg-white items-center justify-start px-4 mt-3 h-[20.5vw] w-[94vw] rounded-xl border-[0.8px] border-gray-500'>
 
                                 <View className='flex items-center justify-center w-16 h-2/3'>
-                                    <Image source={mobile} className='w-12 h-12'></Image>
+                                    <Image source={insurance} className='w-12 h-12'></Image>
                                 </View>
 
                                 <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
@@ -94,7 +100,7 @@ export default function BillPay() {
                             <View className='flex-row bg-white items-center justify-start px-4 mt-3 h-[20.5vw] w-[94vw] rounded-xl border-[0.8px] border-gray-500'>
 
                                 <View className='flex items-center justify-center w-16 h-2/3'>
-                                    <Image source={mobile} className='w-12 h-12'></Image>
+                                    <Image source={leasing} className='w-12 h-12'></Image>
                                 </View>
 
                                 <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
@@ -105,7 +111,7 @@ export default function BillPay() {
                             <View className='flex-row bg-white items-center justify-start px-4 mt-3 h-[20.5vw] w-[94vw] rounded-xl border-[0.8px] border-gray-500'>
 
                                 <View className='flex items-center justify-center w-16 h-2/3'>
-                                    <Image source={mobile} className='w-12 h-12'></Image>
+                                    <Image source={education} className='w-12 h-12'></Image>
                                 </View>
 
                                 <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
@@ -116,7 +122,7 @@ export default function BillPay() {
                             <View className='flex-row bg-white items-center justify-start px-4 mt-3 h-[20.5vw] w-[94vw] rounded-xl border-[0.8px] border-gray-500'>
 
                                 <View className='flex items-center justify-center w-16 h-2/3'>
-                                    <Image source={mobile} className='w-12 h-12'></Image>
+                                    <Image source={other} className='w-12 h-12'></Image>
                                 </View>
 
                                 <View className='flex ml-5 justify-center w-[65vw] h-2/3 '>
